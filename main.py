@@ -6,8 +6,8 @@ from PySide6.QtCore import Qt
 from widgets.repair_widget import RepairWidget
 from widgets.suppliers_widget import SuppliersWidget
 from fot_module.fot_main import FOTWidget
-from gso_module.gso_widget import GSOWidget
-from analytics_module.analytics_widget import AnalyticsWidget
+#from gso_module.gso_widget import GSOWidget
+#from analytics_module.analytics_widget import AnalyticsWidget
 from database.repair_db import init_db  # импортируем init_db
 from PySide6.QtGui import QAction, QIcon
 def resource_path(relative_path):
